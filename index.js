@@ -6,7 +6,7 @@ http.createServer(function (request, response) {
 	response.end('Hello World\n');
 	const PORT = process.env.PORT || 3000;
 	app.listen(PORT, () => {
-    console.log(`Our app is running on port ${ PORT }`);
+    console.log(`app is running on port ${ PORT }`);
 });
 })
 
